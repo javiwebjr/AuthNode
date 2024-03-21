@@ -1,12 +1,13 @@
 {
-  "name": "08-user-store",
+  "name": "auth-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "Auth node console app - middlewares - apis - seeders - clean code - mongodb - docker",
   "main": "index.js",
   "scripts": {
     "dev": "tsnd --respawn --clear src/app.ts",
     "build": "rimraf ./dist && tsc",
-    "start": "npm run build && node dist/app.js"
+    "start": "npm run build && node dist/app.js",
+    "seed": "ts-node-dev ./src/data/seed/seed.ts"
   },
   "keywords": [],
   "author": "",

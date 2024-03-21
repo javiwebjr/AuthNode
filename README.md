@@ -13,3 +13,5 @@ Cada paso de su configuración ya se ha realizado previamente en el curso, por l
 4. Ejecutar `npm run dev` para levantar el proyecto en modo desarrollo
 
 5. En el caso de querer probar los links de autenticacion "Reales" se utiliza ngrok configurando la variable de entorno `WEBSERVICE_URL`
+
+6. Si se desea poblar la BD con datos de prueba ejecuta el siguiente comando `npm run seed`
